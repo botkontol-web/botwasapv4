@@ -1,18 +1,31 @@
+
 Botwasap v3
 
-Bayak yang baru
-Check aja sendiri
+Cie Nyari Scnya:v
 
-|-----------------|
+Donasi:
+Dana: 081229488729
+Ovo: 081229488729
 
-lots of updates
-Just check it yourself 
-If you can help me to translate the bot language please chat me in whatsapp
+Screen Shot Tanda Bukti Donasi Dan Kirim Buktinya Ke Nomer Owner!
 
-|-----------------|
+wa.me/6281229488729
 
-My whatsapp
-wa.me/6282334297175
+[NANTI OWNER/TIM BOT AKAN MEMBERIKAN REWORD!]
 
-My Instagram
-https://Instagram.com/affis_saputro123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
