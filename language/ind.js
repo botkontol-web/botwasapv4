@@ -1,4 +1,4 @@
-exports.wait = () => {
+﻿exports.wait = () => {
 	return`*「 WAIT 」 SEDANG PROSES*`
 }
 
@@ -23,7 +23,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar affis|17*`
+	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar Yoyo|9999*`
 }
 
 exports.rediregis = () => {
@@ -79,7 +79,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATA NEGARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting:v`
+	return`*「 DATA NEGARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting ya anj:v`
 }
 
 exports.cmdnf = (prefix, command) => {
@@ -123,17 +123,17 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
-╰════─⊱  ⸨ *AFFIS* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *AYBR* ⸩  ⊰─════╯
 
-            𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞
+            Rules - Simple
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 ●⧐ *Spam : Auto Block!*
 ●⧐ *Beri Jeda 5detik Saat Menggunakannya!!*
 ●⧐ *Bug/Error Harap Cht Owner!*
 ●⧐ *Untuk Memastikan Bot Off Atau On*
 ●⧐ *Ketik ${prefix}bot*
-●⧐ *Harap Sabar Dengan Bug²nya!*
-●⧐ *Gunakan Bot Sebaik-baiknya!*
+●⧐ *Harap Sabar Dengan Bug²nya ke owner!*
+●⧐ *Gunakan Bot Sebaik-baiknya ya tod!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 
 ╭══─⊱ ❰ *MAKER MENU* ❱ ⊰─══➤
@@ -151,6 +151,8 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}firework*
 ╠☞ *${prefix}lava*
 ║
+║    *_AYBR Team_*
+║
 ╠══─⊱ ❰ *FUN MENU* ❱ ⊰─════➤
 ╠☞ *${prefix}mining*
 ╠☞ *${prefix}bisakah*
@@ -161,6 +163,8 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}tampar*
 ╠☞ *${prefix}speed*
 ║
+║     *_AYBR Team_*
+║
 ╠══─⊱ ❰ *MEDIA MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}toxic*
 ╠☞ *${prefix}quotes*
@@ -170,15 +174,22 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}resepmasakan*
 ╠☞ *${prefix}igstalk*
 ║
+║     *_AYBR Team_*
+║
 ╠══─⊱ ❰ *LIMIT MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}limit*
 ╠☞ *${prefix}buylimit*
 ╠☞ *${prefix}dompet*
 ║
+║      *_AYBR Team_*
+║
 ╠══─⊱ ❰ *NSFW MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}pokemon*
 ╠☞ *${prefix}anjing*
 ╠☞ *${prefix}1cak*
+║
+║
+║      *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *GROUP MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}hidetag*
@@ -201,6 +212,8 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}simih* [1/0]
 ╠☞ *${prefix}welcome* [1/0]
 ║
+║      *_AYBR Team_*
+║
 ╠══─⊱ ❰ *OWNER MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}bc*
 ╠☞ *${prefix}bcgc*
@@ -215,14 +228,19 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}clone*
 ╠☞ *${prefix}setppbot*
 ║
+║       *_AYBR Team_*
+║
 ╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
 ║
-╠☞ *AFFIS JUNIANTO*
-╠☞ *FADHIL GRAPHY*
-╠☞ *XPTN (AGUNG)*
-╠☞ *MYBOT TEAM*
+╠☞ *HANZALID (YOYO)*
+╠☞ *AMRUL HADI*
+╠☞ *REZA JELEK*
+╠☞ *BILA CANS*
+╠☞ *AYBR Team*
 ║
-╰════─⊱  ⸨ *AFFIS* ⸩  ⊰─════╯
+║      *_AYBR Team_*
+║
+╰════─⊱  ⸨ *_AYBR_* ⸩  ⊰─════╯
 `
 }
 
@@ -254,3 +272,242 @@ exports.satukos = () => {
 exports.uangkau = (pushname, sender, uangkau) => {
 	return`*┏⊱ *「 ATM 」* ━┓\n┣⊱ *Nama* : ${pushname}\n┣⊱ *Nomer* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
 }
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	`
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+    
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+ 
+
+
+
+
+
+	
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+ 
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+	
+
