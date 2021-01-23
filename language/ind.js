@@ -132,7 +132,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ●⧐ *Bug/Error Harap Cht Owner!*
 ●⧐ *Untuk Memastikan Bot Off Atau On*
 ●⧐ *Ketik ${prefix}bot*
-●⧐ *Harap Sabar Dengan Bug²nya ke owner!*
+●⧐ *Harap Sabar Dengan Bug yang kaka temukan dibot ini ya kak!*
 ●⧐ *Gunakan Bot Sebaik-baiknya ya tod!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 
