@@ -123,7 +123,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
-╰════─⊱  ⸨ *AYBR* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *AYB* ⸩  ⊰─════╯
 
             Rules - Simple
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
@@ -151,7 +151,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}firework*
 ╠☞ *${prefix}lava*
 ║
-║    *_AYBR Team_*
+║    *_AYB Team_*
 ║
 ╠══─⊱ ❰ *FUN MENU* ❱ ⊰─════➤
 ╠☞ *${prefix}mining*
@@ -163,7 +163,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}tampar*
 ╠☞ *${prefix}speed*
 ║
-║     *_AYBR Team_*
+║     *_AYB Team_*
 ║
 ╠══─⊱ ❰ *MEDIA MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}toxic*
@@ -174,14 +174,14 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}resepmasakan*
 ╠☞ *${prefix}igstalk*
 ║
-║     *_AYBR Team_*
+║     *_AYB Team_*
 ║
 ╠══─⊱ ❰ *LIMIT MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}limit*
 ╠☞ *${prefix}buylimit*
 ╠☞ *${prefix}dompet*
 ║
-║      *_AYBR Team_*
+║      *_AYB Team_*
 ║
 ╠══─⊱ ❰ *NSFW MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}pokemon*
@@ -189,7 +189,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}1cak*
 ║
 ║
-║      *_AYBR Team_*
+║      *_AYB Team_*
 ║
 ╠══─⊱ ❰ *GROUP MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}hidetag*
@@ -212,7 +212,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}simih* [1/0]
 ╠☞ *${prefix}welcome* [1/0]
 ║
-║      *_AYBR Team_*
+║      *_AYB Team_*
 ║
 ╠══─⊱ ❰ *OWNER MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}bc*
@@ -228,7 +228,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}clone*
 ╠☞ *${prefix}setppbot*
 ║
-║       *_AYBR Team_*
+║       *_AYB Team_*
 ║
 ╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
 ║
@@ -240,7 +240,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ║
 ║      *_AYBR Team_*
 ║
-╰════─⊱  ⸨ *_AYBR_* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *_AYB_* ⸩  ⊰─════╯
 `
 }
 
@@ -262,7 +262,7 @@ exports.limitcount = (limitCounts) => {
 *「 LIMIT COUNT 」*
 sisa limit anda : ${limitCounts}
 
-NOTE : untuk mendapatkan limit. bisa lewat naik level atau buylimit`
+NOTE : untuk mendapatkan limit. bisa lewat naik level atau masukan command/perintah ${prefix}buylimit nominal limit|contoh ${prefix}buylimit 10|harga 1 limit 100`
 }
 
 exports.satukos = () => {
