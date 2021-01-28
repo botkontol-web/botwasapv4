@@ -15,23 +15,24 @@ exports.lvloff = () => {
 }
 
 exports.lvlnul = () => {
-	return`*LEVELMU MASIH KOSONG*`
+	return`*LEVELMU MASIH KOSONG TOD*`
 }
 
 exports.lvlnoon = () => {
-	return`*LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*LEVEL DI GRUB BELUM DI AKTIFKAN!*`
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar Yoyo|9999*`
+	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar nama|umur.
+	Contoh: #daftar AYBR|17*`
 }
 
 exports.rediregis = () => {
-	return`*「 SUDAH DAFTAR 」*\n\n*kamu sudah terdaftar di database bot*`
+	return`*「 SUDAH DAFTAR 」*\n\n*kamu sudah terdaftar di database bot tod!*`
 }
 
 exports.stikga = () => {
-	return`*yah gagal coba ulangi beberapa saat lagi*`
+	return`*yah gagal coba kirim ulang perintah yang tersedia!*`
 }
 
 exports.linkga = () => {
@@ -39,23 +40,23 @@ exports.linkga = () => {
 }
 
 exports.groupo = () => {
-	return`*「GROUP ONLY」*`
+	return`*「Khusus ADMIN Grup Tod!」*`
 }
 
 exports.ownerb = () => {
-	return`*「OWNER BOT ONLY」*`
+	return`*「Khusus Owner Bot Only cok!」*`
 }
 
 exports.ownerg = () => {
-	return`*「OWNER GROUP ONLY」*`
+	return`*「Khusus Owner Bot Only cok!」*`
 }
 
 exports.admin = () => {
-	return`*「ADMIN GROUP ONLY」*`
+	return`*「Khusus ADMIN Grup Tod!」*`
 }
 
 exports.badmin = () => {
-	return`*「BOT HARUS JADI ADMIN」*`
+	return`*「BOT HARUS JADI ADMIN!」*`
 }
 
 exports.nsfwoff = () => {
@@ -67,7 +68,7 @@ exports.bug = () => {
 }
 
 exports.wrongf = () => {
-	return`*format salah/text kosong*`
+	return`*format salah/text kosong ketik ${prefix}menu / ${prefix}help*`
 }
 
 exports.clears = () => {
@@ -123,7 +124,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
-╰════─⊱  ⸨ *AYB* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *AYBR* ⸩  ⊰─════╯
 
             Rules - Simple
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
@@ -131,7 +132,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ●⧐ *Beri Jeda 5detik Saat Menggunakannya!!*
 ●⧐ *Bug/Error Harap Cht Owner!*
 ●⧐ *Untuk Memastikan Bot Off Atau On*
-●⧐ *Ketik ${prefix}bot*
+●⧐ *Ketik ${prefix}menu atau ${prefix}help*
 ●⧐ *Harap Sabar Dengan Bug²nya ke owner!*
 ●⧐ *Gunakan Bot Sebaik-baiknya ya tod!*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
@@ -151,7 +152,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}firework*
 ╠☞ *${prefix}lava*
 ║
-║    *_AYB Team_*
+║ *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *FUN MENU* ❱ ⊰─════➤
 ╠☞ *${prefix}mining*
@@ -163,7 +164,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}tampar*
 ╠☞ *${prefix}speed*
 ║
-║     *_AYB Team_*
+║ *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *MEDIA MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}toxic*
@@ -174,14 +175,14 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}resepmasakan*
 ╠☞ *${prefix}igstalk*
 ║
-║     *_AYB Team_*
+║ *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *LIMIT MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}limit*
 ╠☞ *${prefix}buylimit*
 ╠☞ *${prefix}dompet*
 ║
-║      *_AYB Team_*
+║ *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *NSFW MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}pokemon*
@@ -189,7 +190,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}1cak*
 ║
 ║
-║      *_AYB Team_*
+║ *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *GROUP MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}hidetag*
@@ -212,11 +213,11 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}simih* [1/0]
 ╠☞ *${prefix}welcome* [1/0]
 ║
-║      *_AYB Team_*
+║ *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *OWNER MENU* ❱ ⊰─══➤
-╠☞ *${prefix}bc*
-╠☞ *${prefix}bcgc*
+╠☞ *${prefix}bc* *[EROR!]*
+╠☞ *${prefix}bcgc* *[EROR!]*
 ╠☞ *${prefix}kickall*
 ╠☞ *${prefix}setreply*
 ╠☞ *${prefix}setprefix*
@@ -228,19 +229,17 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}clone*
 ╠☞ *${prefix}setppbot*
 ║
-║       *_AYB Team_*
+║ *_AYBR Team_*
 ║
 ╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
 ║
-╠☞ *HANZALID (YOYO)*
+╠☞ *ALLAH*
+╠☞ *HANZ (YOYO)*
 ╠☞ *AMRUL HADI*
 ╠☞ *REZA JELEK*
 ╠☞ *BILA CANS*
 ╠☞ *AYBR Team*
-║
-║      *_AYBR Team_*
-║
-╰════─⊱  ⸨ *_AYB_* ⸩  ⊰─════╯
+╰════─⊱  ⸨ *_AYBR_* ⸩  ⊰─════╯
 `
 }
 
