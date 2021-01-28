@@ -42,7 +42,7 @@ const vcard = 'BEGIN:VCARD\n'
 prefix = '#'
 blocked = []   
 limitawal = '20'
-cr = '*BOT AYBR*'
+cr = '*AYB Team Bot*'
 
 /******** OWNER NUMBER**********/
 const ownerNumber = ["6281229488729@s.whatsapp.net","62895622002734@s.whatsapp.net"] 
@@ -1388,14 +1388,14 @@ client.on('group-participants-update', async (anu) => {
 					})
 					await limitAdd(sender)
 					break
-                 case 'simi':
+                 case 'smmi':
 					if (args.length < 1) return reply('Textnya mana um?')
 					teks = body.slice(5)
 					anu = await simih(teks) //fetchJson(`https://mhankbarbars.herokuapp.com/api/samisami?text=${teks}`, {method: 'get'})
 					//if (anu.error) return reply('Simi ga tau kak')
 					reply(anu)
 					break
-				case 'simih':
+				case 'simmm':
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.admin())
 					if (args.length < 1) return reply('Boo :𝘃')
