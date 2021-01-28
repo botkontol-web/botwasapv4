@@ -890,6 +890,9 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'donasi':
 				case 'donate':
+				case 'nyawer':
+				case 'dukungnyawer':
+				case 'iklan':
 				if (!isRegistered) return reply(ind.noregis())
 					client.sendMessage(from, donasi(), text)
 					break
